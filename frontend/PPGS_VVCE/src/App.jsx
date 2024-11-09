@@ -1,7 +1,12 @@
+import "./index.css"
+
+
 function App() {
   return (
     <>
-      Sample React App
+      <div>
+          Sample React App
+      </div>
     </>
   )
 }
