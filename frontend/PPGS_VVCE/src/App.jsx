@@ -1,4 +1,5 @@
 import { Button } from "antd";
+import AnimatedComponent from "./components/AnimatedComponent";
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
     <>
     <Button>Click Here</Button>
       Basic React App
+    <AnimatedComponent/>
     </>
   )
 }
