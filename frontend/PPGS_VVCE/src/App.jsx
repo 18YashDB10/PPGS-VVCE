@@ -1,14 +1,13 @@
-import { Button } from "antd";
-import AnimatedComponent from "./components/AnimatedComponent";
+import LandingHome from "./Pages/Landing Page/LandingHome"
+import {BrowserRouter,Route,Routes} from 'react-router-dom'
 
 function App() {
-
   return (
-    <>
-    <Button>Click Here</Button>
-      Basic React App
-    <AnimatedComponent/>
-    </>
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<LandingHome />}></Route>
+    </Routes>
+  </BrowserRouter>
   )
 }
 
